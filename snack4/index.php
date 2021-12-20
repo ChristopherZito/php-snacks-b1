@@ -10,7 +10,18 @@
 <body>
     <section id="container">
         <div>
-            
+            <?php
+                $koaku = [];
+                $numbers = [];
+
+                while(count($koaku) < 15) {
+                    $num = rand(1, 100);
+                    if(!in_array($num , $numbers)){
+                        $numbers = $num;
+                    }
+                   
+                }
+            ?>
         </div>
     </section>
     
