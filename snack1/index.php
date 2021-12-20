@@ -40,8 +40,6 @@
                 $key = $arr[$i];
 
                 echo $key["casa"] . "--" . $key["ospite"] . "--" . $key["puntiCasa"] . "--" . $key["puntiOspite"] . "<br>" ;
-
-
             }
             ?>
         </div>
