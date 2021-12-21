@@ -13,7 +13,22 @@
 <body>
     <section id="container">
         <div>
-            
+            <?php
+                $class = [
+                    "Me Medesimo" => [6,7,9,9,8,6,6,7],
+                    "Me Parallelo" => [1,2,3,4,2,4,1,3]
+                ];
+                $name = array_keys($class);
+                
+                foreach($name as $value){
+                    $score = $class[$value];
+                    foreach($score as $voti){
+                        $media += $voti;
+                    }
+                    $media /= count($score);
+                    echo $value . ":". round($media , 1) . "<br>";
+                }
+            ?>
         </div>
     </section>
     
