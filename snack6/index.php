@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Snack6</title>
+    <!-- Utilizzare questo array: https://pastebin.com/CkX3680A.
+    Stampiamo il nostro array mettendo gli insegnanti in un rettangolo grigio e i PM in un rettangolo verde. -->
 </head>
 <body>
     <section id="container">

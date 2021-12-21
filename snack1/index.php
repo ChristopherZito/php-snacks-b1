@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Snack1</title>
+    <!-- Creiamo un array contenente le partite di basket di un'ipotetica tappa del calendario.
+    Ogni array avrà una squadra di casa e una squadra ospite, punti fatti dalla squadra di casa e punti fatti dalla squadra ospite.
+    Stampiamo a schermo tutte le partite con questo schema.
+
+    Olimpia Milano - Cantù | 55-60 -->
 </head>
 <?php
     $arr = [
@@ -39,7 +44,7 @@
             for($i = 0; $i < count($keys); $i++){
                 $key = $arr[$i];
 
-                echo $key["casa"] . "--" . $key["ospite"] . "--" . $key["puntiCasa"] . "--" . $key["puntiOspite"] . "<br>" ;
+                echo $key["casa"] . " " . $key["ospite"] . "-" . $key["puntiCasa"] . "|" . $key["puntiOspite"] . "<br>" ;
             }
             ?>
         </div>

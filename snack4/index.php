@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Snack4</title>
+    <!-- Creare un array con 15 numeri casuali, 
+    tenendo conto che l'array non dovrà contenere lo stesso numero più di una volta -->
 </head>
 <body>
     <section id="container">

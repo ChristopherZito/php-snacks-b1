@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Snack5</title>
+   <!--  Prendere un paragrafo abbastanza lungo, contenente diverse frasi.
+    Prendere il paragrafo e suddividerlo in tanti paragrafi. 
+    Ogni punto un nuovo paragrafo. -->
 </head>
 <body>
     <section id="container">
