@@ -13,7 +13,19 @@
 <body>
     <section id="container">
         <div>
-            
+            <?php
+                $text = "Lorem ipsum dolor sit. amet consectetur adipisicing elit.
+                Aut. aperiam. Maiores fuga, eos rem tempora necessitatibus.
+                laboriosam eligendi veniam voluptates .totam neque aut tenetur 
+                eius praesentium optio ullam odio ratione.";
+
+                $newText = explode(".", $text);
+
+                for($i=0; $i<count($newText); $i++){
+                    $lng = $newText[$i];
+                    echo "<p>" .$lng . ".</p>";
+                }
+            ?>
         </div>
     </section>
     

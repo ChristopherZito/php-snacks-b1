@@ -14,15 +14,14 @@
         <div>
             <?php
                 $koaku = [];
-                $numbers = [];
 
                 while(count($koaku) < 15) {
                     $num = rand(1, 100);
-                    if(!in_array($num , $numbers)){
-                        $numbers = $num;
+                    if(!in_array($num , $koaku)){
+                        $koaku [] = $num;
                     }
-                   
                 }
+                var_dump($koaku)
             ?>
         </div>
     </section>

@@ -15,20 +15,20 @@
 <?php
     $arr = [
         [
-            "casa" => "Squadra1casa",
-            "ospite" => "Squadra1ospite",
+            "casa" => "LCS",
+            "ospite" => "LEC",
             "puntiCasa" => 32,
             "puntiOspite" => 64 ,
         ],
         [
-            "casa" => "Squadra2casa",
-            "ospite" => "Squadra2ospite",
+            "casa" => "LCK",
+            "ospite" => "LCK",
             "puntiCasa" => 76,
             "puntiOspite" => 24 ,
         ],
         [
-            "casa" => "Squadra3casa",
-            "ospite" => "Squadr32ospite",
+            "casa" => "LPL",
+            "ospite" => "LCK",
             "puntiCasa" => 1,
             "puntiOspite" => 3 ,
         ],
@@ -44,7 +44,7 @@
             for($i = 0; $i < count($keys); $i++){
                 $key = $arr[$i];
 
-                echo $key["casa"] . " " . $key["ospite"] . "-" . $key["puntiCasa"] . "|" . $key["puntiOspite"] . "<br>" ;
+                echo $key["casa"] . " " . $key["ospite"] . " | "  . $key["puntiCasa"] . " - " . $key["puntiOspite"] . "<br>" ;
             }
             ?>
         </div>
